@@ -7,17 +7,35 @@
   text-align: center;
 }
 
-.exchange-descript > h3 {
-  color: #1e6c93;
-  font-family: 'Spectral', serif;
-  font-size: 1.1875em;
-  margin: 0 20px;
-  padding: 1em;
+.container-one{
+  border-bottom: 1px solid black;;
+  margin: 50px; 
 }
 
-.exchange-descript > p {
+#icon{
+  float: right;
+  justify-content: space-between; 
+  max-width: 1.875rem;
+  
+}
+
+.study-exchange{
+  color: #1e6c93;
+  cursor: pointer;
   font-family: 'Spectral', serif;
-  font-size: 1em;
-  margin: 0 30px 0 30px;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  margin: 2em 0 0 1em;
+  padding: 0.5em;
+  position: relative;
+  
+}
+
+.study-exchange-text{
+  font-family: 'Spectral', serif;
+  font-size: 1.1rem;
+  margin: 0 0 0 1em;
+  padding-bottom: 1.25rem;
   text-align: justify;
+  text-indent: 2%;
 }

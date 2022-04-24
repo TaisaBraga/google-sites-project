@@ -12,7 +12,7 @@
   margin: 50px;
 }
 
-#icon, #iconTwo{
+#icon, #iconTwo, #iconThree{
   float: right;
   justify-content: space-between; 
   max-width: 1.875rem;

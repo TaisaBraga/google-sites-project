@@ -9,10 +9,10 @@
 
 .container{
   border-bottom: 1px solid black;
-  margin: 50px;
+  margin: 3.125rem;
 }
 
-#icon, #iconTwo, #iconThree{
+#icon, #iconTwo, #iconThree, #iconFour{
   float: right;
   justify-content: space-between; 
   max-width: 1.875rem;

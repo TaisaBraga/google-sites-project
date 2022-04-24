@@ -7,12 +7,12 @@
   text-align: center;
 }
 
-.container-one{
-  border-bottom: 1px solid black;;
-  margin: 50px; 
+.container{
+  border-bottom: 1px solid black;
+  margin: 50px;
 }
 
-#icon{
+#icon, #iconTwo{
   float: right;
   justify-content: space-between; 
   max-width: 1.875rem;
@@ -23,7 +23,7 @@
   color: #1e6c93;
   cursor: pointer;
   font-family: 'Spectral', serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   margin: 2em 0 0 1em;
   padding: 0.5em;
@@ -33,9 +33,10 @@
 
 .study-exchange-text{
   font-family: 'Spectral', serif;
-  font-size: 1.1rem;
-  margin: 0 0 0 1em;
+  font-size: 1.1em;
+  margin: 0 1em 0 1em;
   padding-bottom: 1.25rem;
   text-align: justify;
   text-indent: 2%;
+  display: none;
 }

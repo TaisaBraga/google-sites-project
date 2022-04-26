@@ -1,0 +1,32 @@
+.apresentation {
+  align-items: center;
+  background-color: white; 
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  margin: auto;
+  padding: 1.2em;
+  position: relative;
+}
+.img-section-one{
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+}
+
+.apresentation > h3 {
+  color: #1e6c93;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8125em;
+  font-weight: lighter;
+  margin-bottom: 0.62em;
+  text-align: center;
+}
+
+.apresentation > p{
+  font-family: 'Spectral', serif;
+  font-size: 1em;
+  font-weight: lighter;
+  max-width: 31.25em;
+  text-align: center;
+}

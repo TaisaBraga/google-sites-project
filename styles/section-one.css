@@ -1,6 +1,5 @@
 .apresentation {
   align-items: center;
-  background-color: white; 
   display: grid;
   grid-template-columns: auto auto;
   justify-items: center;
@@ -9,8 +8,8 @@
   position: relative;
 }
 .img-section-one{
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 91%;
+  max-height: 91%;
   position: relative;
 }
 
@@ -29,4 +28,40 @@
   font-weight: lighter;
   max-width: 31.25em;
   text-align: center;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  gap: 1.25em;
+  margin: 5em;
+
+  grid-template-rows: 18.75em ;
+  grid-template-columns: 1fr 2fr ;
+
+  position: relative;
+}
+
+.img-one{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 100%;
+  
+}
+
+.img-two{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  width: 100%;
+  
+}
+
+.img-three{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  width: 97.5%;
+  height: 97.5%;
+    
 }

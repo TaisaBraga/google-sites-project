@@ -65,3 +65,18 @@
   height: 97.5%;
     
 }
+
+.apresentation-exchange {
+  font-family: 'Spectral', serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  line-height: 1.5em;
+  margin: 10px 70px 20px 70px;
+  padding: 30px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.list {
+  list-style-type: square;
+}

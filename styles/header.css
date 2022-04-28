@@ -5,12 +5,11 @@
 
 .header{
   color: white;
-  background: linear-gradient(rgba(22, 22, 22, 0.433),rgba(65, 64, 64, 0.348)), url(../img/mapa.jpg);
-
-  background-position: center;
+  background: linear-gradient(rgba(22, 22, 22, 0.488),rgba(65, 64, 64, 0.425)), url(../img/mapa.jpg);
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 50vh;
 }
 
@@ -18,7 +17,8 @@
   font-family: 'Caveat', cursive;
   font-size: 6.25em;
   font-weight: normal;
-  padding-top: 3%;
+  margin: auto;
+  padding-top: 80px;
   text-align: center;
 }
 

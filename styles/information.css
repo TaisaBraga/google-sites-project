@@ -1,0 +1,23 @@
+.information {
+  align-items: stretch;
+  display: flex;
+  margin: auto;
+  padding: 3.125em;
+}
+
+
+.img-graduated-day{
+  width: 34.375em;
+  box-shadow: 3px 5px 5px rgba(21, 21, 21, 0.344);
+}
+
+.information-text {
+  font-family: 'Spectral', serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-left: 1.875em;
+  text-align: justify;
+  text-indent: 1.25em;
+  width: 50em;
+  
+}
